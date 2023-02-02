@@ -33,7 +33,6 @@ class CreateCommand extends Command<int> {
 
   @override
   Future<int> run() async {
-    // final response = await MasonGenerator.fromBrick(Brick.git(GitPath('')));
     Logger().progress('Bootstrapping');
     print(_projectName);
     final response = await MasonGenerator.fromBrick(
@@ -44,6 +43,7 @@ class CreateCommand extends Command<int> {
         ),
       ),
     );
+    // TODO: Generate on Path
     print(response.files.map((e) => e.path));
     return ExitCode.success.code;
   }
