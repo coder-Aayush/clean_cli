@@ -7,7 +7,7 @@
 
 
 ## Getting Started 🚀
-**❗ In order to start using Clean CLI you must have the [Flutter SDK](https://docs.flutter.dev/get-started/install) install on your comouter **
+**❗ In order to start using Clean CLI you must have the [Flutter SDK](https://docs.flutter.dev/get-started/install) install on your computer **
 
 **❗ In order to start using Clean CLI you must have the [Flutter SDK](https://docs.flutter.dev/get-started/install)
 
